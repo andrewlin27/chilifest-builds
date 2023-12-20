@@ -1,8 +1,10 @@
 import React from 'react'
 
-const FirstComponent = () => {
+const FirstComponent = ({fn}) => {
   return (
-    <div>test FirstComponent</div>
+    <div>
+      <button onClick={() => fn(0)}>Reset</button>
+    </div>
   )
 }
 
