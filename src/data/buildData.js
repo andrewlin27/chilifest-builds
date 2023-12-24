@@ -62,7 +62,13 @@ export default [
     {
         id: 11,
         name: "Shipwrecked",
-        image: "ama.png",
+        image: "shipwrecked.png",
+        link: "https://fb.me/e/blSXy29Xp",
+    },
+    {
+        id: 12,
+        name: "Phis in Cairo",
+        image: "phis.png",
         link: "https://fb.me/e/blSXy29Xp",
     }
     
