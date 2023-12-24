@@ -58,6 +58,12 @@ export default [
         name: "AMAOlympics",
         image: "ama.png",
         link: "https://fb.me/e/blSXy29Xp",
+    },
+    {
+        id: 10,
+        name: "Shipwrecked",
+        image: "ama.png",
+        link: "https://fb.me/e/blSXy29Xp",
     }
     
 ]
