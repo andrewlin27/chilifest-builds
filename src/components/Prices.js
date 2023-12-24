@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import prices from '../data/priceData'
+// import prices from '../data/priceData'
 import PriceEntry from './PriceEntry'
 import './css/Prices.css'
+import prices from '../data/buildData'
+
 
 const Prices = () => {
 
@@ -51,7 +53,7 @@ const Prices = () => {
 
       <div>
         {sortedPrices.map(item => {
-          return <PriceEntry key={item.id} {...item}/>
+          return <PriceEntry name={item.name} guys={item.guys} girls={item.girls} included={item.included}/>
         })}
       </div>
     </div>
