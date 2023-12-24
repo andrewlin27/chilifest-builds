@@ -6,8 +6,8 @@
     padding: 8px;
     margin-bottom: 8px;
     font-size: 25px;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-color: #624cab;
+    /* background-image: linear-gradient(225deg,  #784BA0 50%, #2B86C5 100%); */
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
     font-weight: bold;
