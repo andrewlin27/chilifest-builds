@@ -1,0 +1,18 @@
+.build-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px; /* Set a width for each card */
+    flex: 1 0 20%; /* Each card takes up 20% of the container width, with a minimum width of 200px */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    cursor: pointer;
+}
+  
+.build-card img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
