@@ -5,6 +5,14 @@ import builds from '../data/buildData'
 
 const Home = () => {
 
+  function compare(el1, el2, index) {
+    return el1[index] === el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
+  }
+
+  builds.sort(function(el1,el2){
+    return compare(el1, el2, "name")
+  });
+
   const cards = builds.map(item => {
       return(<BuildCard key = {item.id} {...item}/>)
   })
