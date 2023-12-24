@@ -8,67 +8,67 @@ export default [
     {
         id: 2,
         name: "Phi Delt Las Vegas", 
-        image: "./assets/phi.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 3,
         name: "The Masters", 
-        image: "./assets/masters.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 4,
         name: "Sigma Chi Yacht Club", 
-        image: "./assets/sigchi.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 5,
         name: "PIKE: The Saloon", 
-        image: "./assets/pike.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 6,
         name: "Delts Angels", 
-        image: "./assets/delt.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 7,
         name: "Kappa Sigma Margaritaville", 
-        image: "./assets/kappa.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 8,
         name: "Beta Born in the USA", 
-        image: "./assets/beta.png", 
+        image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp"
     },
     {
         id: 9,
         name: "Willystock",
-        image: "centuries.png",
+        image: "ace.png",
         link: "https://fb.me/e/blSXy29Xp",
     },
     {
         id: 10,
         name: "AMAOlympics",
-        image: "ama.png",
+        image: "ace.png",
         link: "https://fb.me/e/blSXy29Xp",
     },
     {
         id: 11,
         name: "Shipwrecked",
-        image: "shipwrecked.png",
+        image: "ace.png",
         link: "https://fb.me/e/blSXy29Xp",
     },
     {
         id: 12,
         name: "Phis in Cairo",
-        image: "phis.png",
+        image: "ace.png",
         link: "https://fb.me/e/blSXy29Xp",
     }
     
