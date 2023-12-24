@@ -1,0 +1,13 @@
+.price-entry {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .entry-item {
+    flex: 1;
+    text-align: center;
+  }
+  

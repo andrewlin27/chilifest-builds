@@ -9,8 +9,8 @@ export default [
     {
         id: 2,
         name: "Phi Delt Las Vegas",
-        guys: 999,
-        girls: 999,
+        guys: 1,
+        girls: 1000000,
         included: "food, drinks, shirt"
     },
     {

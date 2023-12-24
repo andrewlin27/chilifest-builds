@@ -1,0 +1,11 @@
+.price-entry-titles {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .entry-item-title {
+    flex: 1;
+    text-align: center;
+  }
