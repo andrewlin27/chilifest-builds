@@ -1,19 +1,13 @@
 import React from 'react'
 import './css/Home.css'
 import { BuildCard } from './BuildCard'
-import builds from '../data'
+import builds from '../buildsData'
 
 const Home = () => {
 
   const cards = builds.map(item => {
-    return(
-      <BuildCard
-        key = {item.key}
-        {...item}
-        />
-    )
-    }
-  )
+      return(<BuildCard key = {item.id} {...item}/>)
+  })
 
 
   return (
