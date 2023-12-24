@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/Home.css'
 import { BuildCard } from './BuildCard'
-import builds from '../buildsData'
+import builds from '../data/buildData'
 
 const Home = () => {
 
