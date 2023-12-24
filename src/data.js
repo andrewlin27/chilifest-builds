@@ -46,6 +46,18 @@ export default [
         name: "Beta Born in the USA", 
         image: "./assets/beta.png", 
         link: "https://fb.me/e/blSXy29Xp"
+    },
+    {
+        id: 9,
+        name: "Willystock",
+        image: "centuries.png",
+        link: "https://fb.me/e/blSXy29Xp",
+    },
+    {
+        id: 10,
+        name: "AMAOlympics",
+        image: "ama.png",
+        link: "https://fb.me/e/blSXy29Xp",
     }
     
 ]
