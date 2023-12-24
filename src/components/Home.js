@@ -9,21 +9,25 @@ const Home = () => {
     return el1[index] === el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
   }
 
-  builds.sort(function(el1,el2){
+  builds.sort(function (el1, el2) {
     return compare(el1, el2, "name")
   });
 
-  
 
-  const [isAllFlipped, setAllFlipped] = useState(false);
+
+  const [isAllFlipped, setIsAllFlipped] = useState(false);
+
 
   const handleFlipAllClick = () => {
-    setAllFlipped(!isAllFlipped);
+    setIsAllFlipped(prevState => !prevState);
   };
 
   const cards = builds.map(item => {
-    return(<BuildCard key = {item.id} {...item} isFlipped={isAllFlipped} />)
-})
+    return (<BuildCard key={item.id} {...item} isAllFlipped={isAllFlipped}
+      setIsAllFlipped={false} />)
+  })
+
+
 
   return (
     <div className='home-container'>
