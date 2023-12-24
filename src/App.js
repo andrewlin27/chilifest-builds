@@ -1,17 +1,27 @@
-import { useState } from 'react';
 import './App.css';
-import FirstComponent from './components/FirstComponent';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import Prices from './components/Prices';
+import Tshirts from './components/Tshirts';
+import Map from './components/Map';
+import Contacts from './components/Contacts';
+import Navbar from './components/Navbar';
 
 function App() {
-  const [x, setx] = useState(0);
 
   return (
-    <div>
-      {x}
-      <button onClick={() => setx(x + 1)}>Increment</button>
-
-      <FirstComponent fn={setx}/>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/prices" element={<Prices/>} />
+          <Route path="/tshirts" element={<Tshirts/>} />
+          <Route path="/map" element={<Map/>} />
+          <Route path="/contacts" element={<Contacts/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
