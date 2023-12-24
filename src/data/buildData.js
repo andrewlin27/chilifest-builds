@@ -13,7 +13,7 @@ export default [
         name: "Phi Delt Las Vegas", 
         image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
+        guys: 1,
         girls: 999,
         included: "food, drinks, shirt"
     },
@@ -23,7 +23,7 @@ export default [
         image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
-        girls: 999,
+        girls: 1,
         included: "food, drinks, shirt"
     },
     {
