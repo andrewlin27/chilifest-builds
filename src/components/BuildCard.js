@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './css/BuildCard.css'
-import { useCardFlip } from 'react-card-flip';
+// import { useCardFlip } from 'react-card-flip';
 
 export const BuildCard = ({ name, image, link, isAllFlipped, setIsAllFlipped, onCardClick }) => {
   const [isFlipped, setIsFlipped] = useState(false);
