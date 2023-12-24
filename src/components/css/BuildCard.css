@@ -1,32 +1,60 @@
+/* BuildCard.css */
+
 .build-card {
-    width: 200px; /* Set a width for each card */
+    position: relative;
+    width: 350px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
     border: 5px solid black;
     border-radius: 15px;
-    /* margin: 10px;
-    padding: 15px;  */
     text-align: center;
-    flex: 1 0 20%; /* Each card takes up 20% of the container width, with a minimum width of 200px */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
     cursor: pointer;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     color: white;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
-
-
-
-
-    
-    
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    margin: 20px 20px 10px; /* Adjust margins as needed */
+}
+  
+.build-card .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+  
+.build-card.flipped .card-inner {
+    transform: rotateY(180deg);
 }
   
 .build-card img {
-    /* max-width: 100%;
-    max-height: 150px;
-    border-radius: 4px;
-    margin-top: 10px; */
     width: 100%;
-    border-radius: 9px;
-    margin-bottom: 9px;
-    
+    height: 89%; /* Adjust height as needed */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+.build-card h2 {
+    margin-top: 2%; /* Adjust the margin-top as needed */
+    font-size: 30px;
+}
+  
+.build-card .build-card-front,
+.build-card .build-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+.build-card .build-card-front {
+    z-index: 2; /* Ensure the front is above the back when flipped */
+}
+  
+.build-card .build-card-back {
+    transform: rotateY(180deg);
+    z-index: 1; /* Ensure the back is below the front when flipped */
 }

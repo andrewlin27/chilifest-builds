@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './css/Home.css'
 import { BuildCard } from './BuildCard'
 import builds from '../data/buildData'
@@ -13,13 +13,21 @@ const Home = () => {
     return compare(el1, el2, "name")
   });
 
-  const cards = builds.map(item => {
-      return(<BuildCard key = {item.id} {...item}/>)
-  })
+  
 
+  const [isAllFlipped, setAllFlipped] = useState(false);
+
+  const handleFlipAllClick = () => {
+    setAllFlipped(!isAllFlipped);
+  };
+
+  const cards = builds.map(item => {
+    return(<BuildCard key = {item.id} {...item} isFlipped={isAllFlipped} />)
+})
 
   return (
     <div className='home-container'>
+      <button onClick={handleFlipAllClick}>Flip All Cards</button>
       <h1>Builds</h1>
       <div className='builds-container'>
         {cards}
