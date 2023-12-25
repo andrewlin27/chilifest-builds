@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './css/BuildCard.css';
 
@@ -17,3 +18,4 @@ export const BuildCard = ({ name, image, isFlipped = false, onCardClick }) => {
     </div>
   );
 };
+
