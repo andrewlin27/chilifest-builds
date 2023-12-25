@@ -80,7 +80,7 @@ export default [
         girls: 999,
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
-        org: "Kappa Sigma",
+        org: "Kappa Sig",
         contact: "@instagram"
     },
     {
@@ -189,6 +189,18 @@ export default [
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Fiji",
+        contact: "email@gmail.com"
+    },
+    {
+        id: 17,
+        name: "Paradigm",
+        image: "comingSoon.jpg",
+        link: "https://fb.me/e/blSXy29Xp",
+        guys: 999,
+        girls: 999,
+        included: "food, drinks, shirt",
+        tshirt: "shirtSoon.jpg",
+        org: "Paradigm",
         contact: "email@gmail.com"
     }
 ]

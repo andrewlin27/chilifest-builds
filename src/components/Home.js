@@ -35,7 +35,7 @@ const Home = () => {
       <button className='flip-all-button' onClick={handleFlipAllClick}>
         {isAllFlipped ? 'Builds' : 'T-Shirts'}
       </button>
-      <h1>Builds</h1>
+      <h1>Home</h1>
       <div className='builds-container'>
         {cards}
       </div>
