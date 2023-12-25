@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './css/Home.css'
 import { BuildCard } from './BuildCard'
-import builds from '../data/buildData'
+import builds from '../buildData'
 
 const Home = () => {
 

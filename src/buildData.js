@@ -6,7 +6,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 2,
@@ -15,7 +18,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 1,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 3,
@@ -24,7 +30,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 1,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 4,
@@ -33,7 +42,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 5,
@@ -42,7 +54,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 6,
@@ -51,7 +66,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 7,
@@ -60,7 +78,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 8,
@@ -69,7 +90,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 9,
@@ -78,7 +102,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 10,
@@ -87,7 +114,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 11,
@@ -96,7 +126,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     },
     {
         id: 12,
@@ -105,7 +138,10 @@ export default [
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
-        included: "food, drinks, shirt"
+        included: "food, drinks, shirt",
+        tshirt: "aceShirt.png",
+        contact: "Contact Name",
+        email: "email@gmail.com"
     }
     
 ]

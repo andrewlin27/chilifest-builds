@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-// import prices from '../data/priceData'
 import PriceEntry from './PriceEntry'
 import './css/Prices.css'
-import prices from '../data/buildData'
+import prices from '../buildData'
 
 
 const Prices = () => {
@@ -85,7 +84,7 @@ const Prices = () => {
           </li>
         ))} */}
         {jsonData.map(item => {
-          return <PriceEntry name={item.name} guys={item.guys} girls={item.girls} included={item.included}/>
+          return <PriceEntry key={item.id} name={item.name} guys={item.guys} girls={item.girls} included={item.included}/>
         })}
       </div>
     </div>
