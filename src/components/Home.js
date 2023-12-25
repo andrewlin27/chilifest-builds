@@ -24,7 +24,11 @@ const Home = () => {
         {isAllFlipped ? 'Builds' : 'T-Shirts'}
       </button>
       <h1>Builds</h1>
-      <div className='builds-container'>{cards}</div>
+      <div className='builds-container'>
+        {builds.map(item => {
+        return <BuildCard key={item.id} {...item} isFlipped={isAllFlipped} />;
+        })}
+      </div>
     </div>
   );
 };

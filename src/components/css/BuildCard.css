@@ -30,11 +30,10 @@
     object-fit: cover;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
-
   }
   
   .build-card h2 {
-    margin-top: 2%; /* Adjust the margin-top as needed */
+    margin-top: 2%; 
     font-size: 30px;
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;

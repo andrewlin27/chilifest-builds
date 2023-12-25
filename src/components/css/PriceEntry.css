@@ -11,8 +11,13 @@
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
     font-weight: bold;
-
   }
+
+@media (max-width: 760px) {
+  .price-entry {
+      font-size: 16px;
+  }
+}
   
   .entry-item {
     flex: 1;

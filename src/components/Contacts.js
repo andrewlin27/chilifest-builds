@@ -40,10 +40,9 @@ const Contacts = () => {
           <option value="contact">Contact</option>
           <option value="email">Email</option>
           <option value="link">Link</option>
-
         </select>
       </div>
-
+      <h1 id='title'>Contacts</h1>
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
         <div className="entry-item-title">Contact</div>

@@ -68,7 +68,7 @@ const Prices = () => {
           <option value="girls">Girls Price</option>
         </select>
       </div>
-
+      <h1 id='title'>Prices</h1>
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
         <div className="entry-item-title">Guys Price</div>

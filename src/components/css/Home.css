@@ -2,8 +2,6 @@
     text-align: center;
     padding: 20px;
     background-color: white
-    
-    
 }
 
 .builds-container {
@@ -16,16 +14,16 @@
 }
 
 .flip-all-button {
-    background-color: #4caf50; /* Green background color */
-    color: white; /* White text color */
-    padding: 10px 15px; /* Padding around the text */
-    font-size: 16px; /* Font size */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add some border-radius for rounded corners */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    margin-bottom: 10px; /* Add some margin to separate it from other elements */
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
   
   .flip-all-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
   }
