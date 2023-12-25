@@ -13,7 +13,7 @@ export const BuildCard = ({ name, image, link, isAllFlipped}) => {
         </div>
         <div className='build-card-back'>
           <img src={'../images/chillifestAd.jpeg'} alt='not loading' />
-          <h2> Back content</h2>
+          <h2>{name}</h2>
         </div>
       </div>
     </div>
