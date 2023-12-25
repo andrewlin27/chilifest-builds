@@ -5,12 +5,13 @@ import Prices from './components/Prices';
 import Map from './components/Map';
 import Contacts from './components/Contacts';
 import Navbar from './components/Navbar';
+import '../src/components/css/App.css'
 
 function App() {
 
   return (
     <Router>
-      <div>
+      <div className = "mainBody">
         <h1 className='header'>chilifestbuilds.com</h1>
         <Navbar />
         <Routes>
