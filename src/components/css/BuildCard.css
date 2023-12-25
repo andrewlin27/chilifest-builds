@@ -33,7 +33,8 @@
   }
   
   .build-card h2 {
-    margin-top: 2%; 
+    margin-top: 2%;
+    margin-bottom: 0; 
     font-size: 30px;
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;

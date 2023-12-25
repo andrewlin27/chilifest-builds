@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         name: "Phi Delt Las Vegas", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 1,
         girls: 999,
@@ -26,7 +26,7 @@ export default [
     {
         id: 3,
         name: "The Masters", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 1,
@@ -38,7 +38,7 @@ export default [
     {
         id: 4,
         name: "Sigma Chi Yacht Club", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -50,7 +50,7 @@ export default [
     {
         id: 5,
         name: "PIKE: The Saloon", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -62,7 +62,7 @@ export default [
     {
         id: 6,
         name: "Delts Angels", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -74,7 +74,7 @@ export default [
     {
         id: 7,
         name: "Kappa Sigma Margaritaville", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -86,7 +86,7 @@ export default [
     {
         id: 8,
         name: "Beta Born in the USA", 
-        image: "ace.png", 
+        image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -98,7 +98,7 @@ export default [
     {
         id: 9,
         name: "Willystock",
-        image: "ace.png",
+        image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -110,7 +110,7 @@ export default [
     {
         id: 10,
         name: "AMAOlympics",
-        image: "ace.png",
+        image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -122,7 +122,7 @@ export default [
     {
         id: 11,
         name: "Shipwrecked",
-        image: "ace.png",
+        image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -134,7 +134,7 @@ export default [
     {
         id: 12,
         name: "Phis in Cairo",
-        image: "ace.png",
+        image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
