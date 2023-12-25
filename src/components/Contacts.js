@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './css/Prices.css'
 import ContactEntry from './ContactEntry'
-import contacts from '../data/contactData'
+import contacts from '../buildData'
 // import PriceEntry from './PriceEntry'
 
 
