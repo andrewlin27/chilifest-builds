@@ -12,6 +12,8 @@
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
     font-weight: bold;
+    box-shadow: 0 4px 0 #888888;
+    margin-bottom: 10px;
   }
 
 @media (max-width: 760px) {

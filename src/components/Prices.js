@@ -29,30 +29,7 @@ const Prices = () => {
     setSelectedValue(event.target.value);
   };
 
-  // const compare = (el1, el2, index) => {
-  //   if (el1[index] === el2[index]) {
-  //     return 0;
-  //   }
-  //   else if (el1[index] < el2[index]) {
-  //     return -1;
-  //   }
-  //   else {
-  //     return 1;
-  //   }
-  // }
 
-  // prices.sort((el1,el2) => compare(el1, el2, "name"));
-
-  // const [sortedPrices, setSortedPrices] = useState(prices);
-  // // setSortedPrices(sortedPrices.sort((el1,el2) => compare(el1, el2, "guys")));
-
-
-  // const [sortBy, setSortBy] = useState("name");
-
-  // useEffect(() => {
-  //   setSortedPrices(sortedPrices.sort((el1,el2) => compare(el1, el2, sortBy)));
-  //   console.log(sortedPrices);
-  // }, [sortBy])
 
 
 

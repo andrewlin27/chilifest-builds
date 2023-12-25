@@ -13,3 +13,40 @@
   #title {
     text-align: center;
   }
+
+/* Add this to your existing stylesheet */
+
+#sortDropdown {
+  padding: 8px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add some border-radius for rounded corners */
+  margin-right: 10px; /* Adjust margin as needed */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style the dropdown arrow */
+#sortDropdown::after {
+  content: ' ▼'; /* Unicode for down arrow */
+  font-size: 12px; /* Adjust font size as needed */
+  margin-left: 5px; /* Adjust margin as needed */
+}
+
+/* Style dropdown options */
+#sortDropdown option {
+  background-color: #f9f9f9; /* Background color for options */
+  color: #333; /* Text color for options */
+}
+
+/* Style the dropdown when hovered */
+#sortDropdown:hover {
+  border-color: #888; /* Border color on hover */
+}
+
+/* Style the dropdown when focused */
+#sortDropdown:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: #4caf50; /* Border color when focused */
+}
+
+
