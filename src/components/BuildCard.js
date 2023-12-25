@@ -2,16 +2,16 @@
 import React from 'react';
 import './css/BuildCard.css';
 
-export const BuildCard = ({ name, image, link, isFlipped = false}) => {
+export const BuildCard = ({ name, image, link, tshirt, isFlipped = false}) => {
   return (
     <div className={`card-div ${isFlipped ? 'flipped' : ''}`} onClick={()=>window.open(link,'_blank')}>
       <div className='build-card'>
         <div className='build-card-front'>
-          <img src={`../images/${image}`} alt='not loading' />
+          <img src={`images/flyers/${image}`} alt='not loading' />
           <h2>{name}</h2>
         </div>
         <div className='build-card-back'>
-          <img src='.//images/chillifestAd.jpeg'></img>
+          <img src={`images/shirts/${tshirt}`}></img>
           <h2>{name}</h2>
         </div>
       </div>

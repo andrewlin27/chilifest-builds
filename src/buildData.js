@@ -7,8 +7,8 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "ACE",
         email: "email@gmail.com"
     },
     {
@@ -16,11 +16,11 @@ export default [
         name: "Phi Delt Las Vegas", 
         image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
-        guys: 1,
+        guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Phi Delt",
         email: "email@gmail.com"
     },
     {
@@ -31,8 +31,8 @@ export default [
         guys: 999,
         girls: 1,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Gents/Suits",
         email: "email@gmail.com"
     },
     {
@@ -43,20 +43,20 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Sigma Chi",
         email: "email@gmail.com"
     },
     {
         id: 5,
-        name: "PIKE: The Saloon", 
+        name: "Pike Saloon", 
         image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Pike",
         email: "email@gmail.com"
     },
     {
@@ -67,8 +67,8 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Delt",
         email: "email@gmail.com"
     },
     {
@@ -79,8 +79,8 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Kappa Sigma",
         email: "email@gmail.com"
     },
     {
@@ -91,8 +91,8 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Beta",
         email: "email@gmail.com"
     },
     {
@@ -103,20 +103,20 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Centuries",
         email: "email@gmail.com"
     },
     {
         id: 10,
-        name: "AMAOlympics",
+        name: "Chili Olympics",
         image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "AMA",
         email: "email@gmail.com"
     },
     {
@@ -127,8 +127,8 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Sig Ep",
         email: "email@gmail.com"
     },
     {
@@ -139,9 +139,44 @@ export default [
         guys: 999,
         girls: 999,
         included: "food, drinks, shirt",
-        tshirt: "aceShirt.png",
-        contact: "Contact Name",
+        tshirt: "shirtSoon.jpg",
+        contact: "Alpha Sig/Delta Sig/Phi Psi",
+        email: "email@gmail.com"
+    },
+    {
+        id: 13,
+        name: "The Donks",
+        image: "comingSoon.jpg",
+        link: "https://fb.me/e/blSXy29Xp",
+        guys: 999,
+        girls: 999,
+        included: "food, drinks, shirt",
+        tshirt: "shirtSoon.jpg",
+        contact: "Ol' Ags",
+        email: "email@gmail.com"
+    },
+    {
+        id: 14,
+        name: "Taulapalooza",
+        image: "comingSoon.jpg",
+        link: "https://fb.me/e/blSXy29Xp",
+        guys: 999,
+        girls: 999,
+        included: "food, drinks, shirt",
+        tshirt: "shirtSoon.jpg",
+        contact: "ATO/TKE",
+        email: "email@gmail.com"
+    },
+    {
+        id: 15,
+        name: "Space Rodeo",
+        image: "comingSoon.jpg",
+        link: "https://fb.me/e/blSXy29Xp",
+        guys: 999,
+        girls: 999,
+        included: "food, drinks, shirt",
+        tshirt: "shirtSoon.jpg",
+        contact: "SAE",
         email: "email@gmail.com"
     }
-    
 ]
