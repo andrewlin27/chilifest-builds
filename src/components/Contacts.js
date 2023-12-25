@@ -37,16 +37,16 @@ const Contacts = () => {
         {/* <select id="sortDropdown" value={sortBy} onChange={(event) => setSortBy(event.target.value)}> */}
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>
+          <option value="org">Organization</option>
           <option value="contact">Contact</option>
-          <option value="email">Email</option>
-          <option value="link">Link</option>
+          {/* <option value="link">Link</option> */}
         </select>
       </div>
       <h1 id='title'>Contacts</h1>
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
+        <div className="entry-item-title">Organization</div>
         <div className="entry-item-title">Contact</div>
-        <div className="entry-item-title">Email</div>
         <div className="entry-item-title">Link</div>
       </div>
 
@@ -58,7 +58,7 @@ const Contacts = () => {
           </li>
         ))} */}
         {jsonData.map(item => {
-          return <ContactEntry key={item.id} name={item.name} contact={item.contact} email={item.email} link={item.link} />
+          return <ContactEntry key={item.id} {...item} />
         })}
       </div>
     </div>

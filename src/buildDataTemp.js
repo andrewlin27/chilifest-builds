@@ -4,8 +4,8 @@ export default [
         name: "ACEtoberfest", 
         image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
+        guys: 140,
+        girls: 85,
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "ACE",
@@ -15,17 +15,17 @@ export default [
         id: 2,
         name: "Phi Delt Las Vegas", 
         image: "comingSoon.jpg", 
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        included: "food, drinks, shirt",
+        link: "https://www.eventbrite.com/e/phi-delt-las-vegas-tickets-731622431387?utm_experiment=test_share_listing&aff=ebdsshios",
+        guys: 225,
+        girls: 70,
+        included: "shirt, koozie, food, Friday transportation",
         tshirt: "shirtSoon.jpg",
         org: "Phi Delt",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 3,
-        name: "The Masters", 
+        name: "The Masters", ***
         image: "comingSoon.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
@@ -45,7 +45,7 @@ export default [
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Sigma Chi",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 5,
@@ -57,19 +57,19 @@ export default [
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Pike",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 6,
         name: "Delts Angels", 
         image: "comingSoon.jpg", 
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        included: "food, drinks, shirt",
+        link: "https://my.cheddarup.com/c/delts-angels?cart=06ce22e7-7c54-48f6-a204-44d95640d20f%21%2169891782",
+        guys: 185,
+        girls: 80,
+        included: "shirt, fanny pack, bandana, tattoos, chapstick",
         tshirt: "shirtSoon.jpg",
         org: "Delt",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 7,
@@ -81,7 +81,7 @@ export default [
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Kappa Sigma",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 8,
@@ -93,7 +93,7 @@ export default [
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Beta",
-        contact: "@instagram"
+        contact: "email@gmail.com"
     },
     {
         id: 9,
@@ -183,9 +183,9 @@ export default [
         id: 16,
         name: "Fiji 500",
         image: "comingSoon.jpg",
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
+        link: "fijichilifest.com",
+        guys: 145,
+        girls: 85,
         included: "food, drinks, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Fiji",
