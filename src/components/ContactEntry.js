@@ -7,7 +7,7 @@ const ContactEntry = ({name, contact, email, link}) => {
             <div className='entry-item'>{name}</div>
             <div className='entry-item'>{contact}</div>
             <div className='entry-item'>{email}</div>
-            <div className='entry-item'>{link}</div>
+            <div className='entry-item' id='click-here' onClick={()=>{window.open(link, '_blank')}}>Click Here</div>
         </div>
     )
 }

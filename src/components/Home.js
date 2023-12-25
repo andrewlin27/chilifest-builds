@@ -22,11 +22,6 @@ const Home = () => {
     setIsAllFlipped(prevState => !prevState);
   };
 
-  const cards = builds.map(item => {
-    return (<BuildCard key={item.id} {...item} isAllFlipped={isAllFlipped}
-      setIsAllFlipped={false} />)
-  })
-
 
 
   return (
@@ -34,7 +29,9 @@ const Home = () => {
       <button onClick={handleFlipAllClick}>Flip All Cards</button>
       <h1>Builds</h1>
       <div className='builds-container'>
-        {cards}
+        {builds.map(item => {
+          return (<BuildCard key={item.id} {...item} isAllFlipped={isAllFlipped}/>)
+        })}
       </div>
     </div>
   )

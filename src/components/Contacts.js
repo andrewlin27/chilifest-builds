@@ -59,7 +59,7 @@ const Contacts = () => {
           </li>
         ))} */}
         {jsonData.map(item => {
-          return <ContactEntry name={item.name} contact={item.contact} email={item.email} link={item.link} />
+          return <ContactEntry key={item.id} name={item.name} contact={item.contact} email={item.email} link={item.link} />
         })}
       </div>
     </div>
