@@ -13,9 +13,10 @@ function App() {
     <Router>
       <div className = "mainBody">
         <div className="topLine">
-        <h1 className='header'>chilifestbuilds.com</h1>
-        <Countdown />
+          <h1 className='header'>chilifestbuilds.com</h1>
+          <Countdown />
         </div>
+
         <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -26,7 +27,7 @@ function App() {
 
         <footer className="footer">
           <div className="footer-content">
-            <p>Created by Andrew, Sid, Eric</p>
+            <p>Created by Andrew Lin, Sid Venkatraman, Eric McGonagle</p>
             <div className="warning">
               <p>
               This platform (not affiliated with Chilifest) is created to centralize information about Chilifest builds. 
@@ -36,6 +37,9 @@ function App() {
               </p>
               <p>
                 For inquiries regarding any aspects of this website, please contact [Contact Info].
+              </p>
+              <p>
+                Last updated 12/27/2023
               </p>
             </div>
           </div>

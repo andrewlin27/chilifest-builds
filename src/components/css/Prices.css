@@ -1,3 +1,7 @@
+.sort {
+  margin-left: 8px;
+}
+
 .price-entry-titles {
     display: flex;
     justify-content: space-between;

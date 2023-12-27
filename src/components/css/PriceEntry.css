@@ -29,6 +29,6 @@
     text-align: center;
   }
   
-  #click-here {
+  .click {
     cursor: pointer;
   }

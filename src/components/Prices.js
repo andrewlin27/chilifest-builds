@@ -36,7 +36,7 @@ const Prices = () => {
 
   return (
     <div>
-      <div>
+      <div className='sort'>
         <label htmlFor="sortDropdown">Sort By: </label>
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>

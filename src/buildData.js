@@ -4,11 +4,11 @@ export default [
         name: "ACEtoberfest", 
         image: "ace.png", 
         link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        guysBuild: 999,
-        girlsBuild: 999,
-        included: "food, drinks, shirt",
+        guys: 140,
+        girls: 85,
+        guysBuild: "Free",
+        girlsBuild: "Free",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "ACE",
         contact: "email@gmail.com"
@@ -17,15 +17,15 @@ export default [
         id: 2,
         name: "Phi Delt Las Vegas", 
         image: "phidelt.jpg", 
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        guysBuild: 999,
-        girlsBuild: 999,
-        included: "food, drinks, shirt",
+        link: "https://www.eventbrite.com/e/phi-delt-las-vegas-tickets-731622431387?utm_experiment=test_share_listing&aff=ebdsshios",
+        guys: 225,
+        girls: 85,
+        guysBuild: 225,
+        girlsBuild: 85,
+        included: "Friday transportation, fanny pack, koozie, food, beverages, shirt",
         tshirt: "phidelt.png",
         org: "Phi Delt",
-        contact: "aggiepdtchilifestchairman@gmail.com"
+        contact: "@aggiephidelt"
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ export default [
         girls: 1,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Gents/Suits",
         contact: "email@gmail.com"
@@ -50,7 +50,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Sigma Chi",
         contact: "@instagram"
@@ -64,7 +64,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Pike",
         contact: "@instagram"
@@ -78,7 +78,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Delt",
         contact: "@instagram"
@@ -92,7 +92,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Kappa Sig",
         contact: "@instagram"
@@ -106,7 +106,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Beta",
         contact: "@instagram"
@@ -120,7 +120,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Centuries",
         contact: "email@gmail.com"
@@ -134,7 +134,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "AMA",
         contact: "email@gmail.com"
@@ -148,7 +148,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Sig Ep",
         contact: "email@gmail.com"
@@ -162,7 +162,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Alpha Sig/Delta Sig/Phi Psi",
         contact: "email@gmail.com"
@@ -176,7 +176,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Ol' Ags",
         contact: "email@gmail.com"
@@ -190,7 +190,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "ATO/TKE",
         contact: "email@gmail.com"
@@ -204,7 +204,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "SAE",
         contact: "email@gmail.com"
@@ -218,23 +218,23 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, drinks, shirt",
+        included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Fiji",
         contact: "email@gmail.com"
     },
     {
         id: 17,
-        name: "Paradigm",
+        name: "Chilifest Grand Prix",
         image: "paradigm.jpg",
         link: "https://my.cheddarup.com/c/paradigmxabb-chilifest?cart=a654b6d7-dbd3-4eec-b222-cea2bf8e3bc0%21%2169934833",
         guys: 150,
         girls: 70,
-        guysBuild: 999,
-        girlsBuild:999,
+        guysBuild: 70,
+        girlsBuild: 30,
         included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
-        org: "Paradigm",
+        org: "Paradigm/ABB",
         contact: "email@gmail.com"
     }
 ]

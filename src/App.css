@@ -45,4 +45,6 @@ body {
 
 .topLine{
   display:flex;
+  padding-left: 8px;
+  padding-top: 8px;
 }

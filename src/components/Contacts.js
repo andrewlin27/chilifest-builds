@@ -32,31 +32,24 @@ const Contacts = () => {
 
   return (
     <div>
-      <div>
-        <label htmlFor="sortDropdown">Sort By:</label>
-        {/* <select id="sortDropdown" value={sortBy} onChange={(event) => setSortBy(event.target.value)}> */}
+      <div className='sort'>
+        <label htmlFor="sortDropdown">Sort By: </label>
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>
           <option value="org">Organization</option>
           <option value="contact">Contact</option>
-          {/* <option value="link">Link</option> */}
         </select>
       </div>
+
       <h1 id='title'>Contacts</h1>
+
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
         <div className="entry-item-title">Organization</div>
         <div className="entry-item-title">Contact</div>
-        <div className="entry-item-title">Link</div>
       </div>
 
       <div>
-
-        {/* {jsonData.map((item) => (
-          <li key={item.id}>
-            {item.name} - {item.age} years old
-          </li>
-        ))} */}
         {jsonData.map(item => {
           return <ContactEntry key={item.id} {...item} />
         })}
