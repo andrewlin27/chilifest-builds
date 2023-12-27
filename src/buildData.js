@@ -8,7 +8,7 @@ export default [
         girls: 85,
         guysBuild: "Free",
         girlsBuild: "Free",
-        included: "food, beverages, shirt",
+        included: "A damn good time",
         tshirt: "shirtSoon.jpg",
         org: "ACE",
         contact: "email@gmail.com"
@@ -129,12 +129,12 @@ export default [
         id: 10,
         name: "Chili Olympics",
         image: "comingSoon.jpg",
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        guysBuild: 999,
-        girlsBuild: 999,
-        included: "food, beverages, shirt",
+        link: "https://amaolympics.squarespace.com/",
+        guys: 185,
+        girls: 75,
+        guysBuild: 70,
+        girlsBuild: 40,
+        included: "shirt",
         tshirt: "shirtSoon.jpg",
         org: "AMA",
         contact: "email@gmail.com"
@@ -235,6 +235,20 @@ export default [
         included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Paradigm/ABB",
+        contact: "email@gmail.com"
+    },
+    {
+        id: 18,
+        name: "One Army",
+        image: "comingSoon.jpg",
+        link: "https://fb.me/e/blSXy29Xp",
+        guys: 999,
+        girls: 999,
+        guysBuild: 999,
+        girlsBuild: 999,
+        included: "food, beverages, shirt",
+        tshirt: "shirtSoon.jpg",
+        org: "One Army",
         contact: "email@gmail.com"
     }
 ]

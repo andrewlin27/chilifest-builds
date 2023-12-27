@@ -41,8 +41,8 @@ const Prices = () => {
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>
           <option value="girls">Girls Full</option>
-          <option value="guys">Guys Full</option>
           <option value="girlsBuild">Girls Build Only</option>
+          <option value="guys">Guys Full</option>
           <option value="guysBuild">Guys Build Only</option>
         </select>
       </div>

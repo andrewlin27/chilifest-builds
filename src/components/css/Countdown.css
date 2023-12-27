@@ -14,14 +14,20 @@
     color: #fff; /* White text */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* Set the maximum width */
-    margin-left: auto; /* Move to the right side of the page */
-    margin-right: 50px;
+    max-width: 250px; /* Set the maximum width */
+    margin-left: auto;
+     /* Move to the right side of the page */
+    margin-right: 100px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     border: 4px solid black;
     border-radius:7px;
     margin-top:10px;
+  }
 
+  @media (max-width: 760px) {
+    #countdown {
+        margin-right: auto;
+    }
   }
 
 

@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <div className = "mainBody">
-        <div className="topLine">
-          <h1 className='header'>chilifestbuilds.com</h1>
-          <Countdown />
+        <div>
+          <h1 id='website'>chilifestbuilds.com</h1>
         </div>
+        <Countdown />
 
         <Navbar />
         <Routes>
