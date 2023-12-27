@@ -1,3 +1,12 @@
+.mainBody{
+  background: 	#F8F8FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   font-family: 'Arial', sans-serif;
   font-size: 2em;

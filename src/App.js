@@ -5,7 +5,6 @@ import Prices from './components/Prices';
 import Map from './components/Map';
 import Contacts from './components/Contacts';
 import Navbar from './components/Navbar';
-import '../src/components/css/App.css'
 import Countdown from './components/Countdown'
 
 function App() {
