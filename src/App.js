@@ -6,13 +6,17 @@ import Map from './components/Map';
 import Contacts from './components/Contacts';
 import Navbar from './components/Navbar';
 import '../src/components/css/App.css'
+import Countdown from './components/Countdown'
 
 function App() {
 
   return (
     <Router>
       <div className = "mainBody">
+        <div className="topLine">
         <h1 className='header'>chilifestbuilds.com</h1>
+        <Countdown />
+        </div>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />

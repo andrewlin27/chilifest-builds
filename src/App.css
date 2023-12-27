@@ -33,3 +33,7 @@
 .warning p {
   margin-bottom: 10px;
 }
+
+.topLine{
+  display:flex;
+}
