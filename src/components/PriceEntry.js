@@ -5,8 +5,8 @@ const PriceEntry = ({name, guys, girls, included}) => {
   return (
     <div className='price-entry'>
       <div className='entry-item'>{name}</div>
-      <div className='entry-item'>${guys}</div>
-      <div className='entry-item'>${girls}</div>
+      <div className='entry-item'>${girls}/{girls}</div>
+      <div className='entry-item'>${guys}/{guys}</div>
       <div className='entry-item'>{included}</div>
     </div>
   )

@@ -37,31 +37,28 @@ const Prices = () => {
   return (
     <div>
       <div>
-        <label htmlFor="sortDropdown">Sort By:</label>
-        {/* <select id="sortDropdown" value={sortBy} onChange={(event) => setSortBy(event.target.value)}> */}
+        <label htmlFor="sortDropdown">Sort By: </label>
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>
-          <option value="guys">Guys Price</option>
-          <option value="girls">Girls Price</option>
+          <option value="girls">Girls Full</option>
+          <option value="guys">Guys Full</option>
+          <option value="girlsBuild">Girls Build Only</option>
+          <option value="guysBuild">Guys Build Only</option>
         </select>
       </div>
+
       <h1 id='title'>Prices</h1>
+
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
-        <div className="entry-item-title">Guys Price</div>
-        <div className="entry-item-title">Girls Price</div>
+        <div className="entry-item-title">Girls Full/Build Only</div>
+        <div className="entry-item-title">Guys Full/Build Only</div>
         <div className="entry-item-title">Included</div>
       </div>
 
       <div>
-
-      {/* {jsonData.map((item) => (
-          <li key={item.id}>
-            {item.name} - {item.age} years old
-          </li>
-        ))} */}
         {jsonData.map(item => {
-          return <PriceEntry key={item.id} name={item.name} guys={item.guys} girls={item.girls} included={item.included}/>
+          return <PriceEntry key={item.id} {...item}/>
         })}
       </div>
     </div>
