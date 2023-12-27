@@ -2,7 +2,8 @@
   font-family: 'Arial', sans-serif;
   font-size: 2em;
   color: #333;
-  margin: 10px 0;
+  margin-top: 0;
+  margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: left;
