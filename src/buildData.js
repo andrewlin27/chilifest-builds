@@ -194,7 +194,7 @@ export default [
     {
         id: 17,
         name: "Paradigm",
-        image: "comingSoon.jpg",
+        image: "paradigm.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
