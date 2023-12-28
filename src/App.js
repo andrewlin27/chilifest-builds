@@ -39,7 +39,7 @@ function App() {
                 For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
               </p>
               <p>
-                Last updated 12/27/2023
+                Last updated 12/28/2023
               </p>
             </div>
           </div>

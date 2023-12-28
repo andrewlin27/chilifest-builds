@@ -50,7 +50,7 @@ export default [
         girls: 85,
         guysBuild: 60,
         girlsBuild: 60,
-        included: "bandana, sticker",
+        included: "Bandana, sticker",
         tshirt: "sigmachiShirt.png",
         org: "Sigma Chi",
         contact: "@tamusigmachi"
@@ -142,16 +142,16 @@ export default [
     {
         id: 11,
         name: "Shipwrecked",
-        image: "comingSoon.jpg",
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        guysBuild: 999,
-        girlsBuild: 999,
-        included: "",
-        tshirt: "shirtSoon.jpg",
+        image: "sigep.jpg",
+        link: "https://www.bouncelife.com/events/6571ef70a2e4796d97f9ecb1",
+        guys: 160,
+        girls: 78,
+        guysBuild: 160,
+        girlsBuild: 78,
+        included: "Captain hat bundle (hat, scard, and more)",
+        tshirt: "sigepShirt.jpg",
         org: "Sig Ep",
-        contact: "email@gmail.com"
+        contact: "spechili24@gmail.com"
     },
     {
         id: 12,
