@@ -62,8 +62,8 @@ const Prices = () => {
         })}
       </div>
 
-      <div className='sort'>
-        <ul >
+      <div className='bullets'>
+        <ul>
           <li>All builds are assumed to include food, beverages, and a shirt.</li>
           <li>Most build only tickets do NOT include entry to Chilifest.</li>
           <li>All prices are subject to change. </li>

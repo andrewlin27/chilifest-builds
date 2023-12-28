@@ -27,6 +27,7 @@
   @media (max-width: 760px) {
     #countdown {
         margin-right: auto;
+        margin-bottom: 8px;
     }
   }
 

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './css/Home.css';
 import { BuildCard } from './BuildCard';
 import builds from '../buildData';
+import Countdown from './Countdown';
 
 const Home = () => {
   const [isAllFlipped, setIsAllFlipped] = useState(false);
@@ -34,6 +35,8 @@ const Home = () => {
     <div className='home-container'>
       <h1>Home</h1>
 
+      <Countdown/>
+      
       <button className='flip-all-button' onClick={handleFlipAllClick}>
         {isAllFlipped ? 'Builds' : 'T-Shirts'}
       </button>

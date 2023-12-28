@@ -5,8 +5,8 @@
     border: 5px solid #000;
     border-radius:20px;
     padding: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 8px;
     font-size: 25px;
     background-color: #624cab;
@@ -20,7 +20,9 @@
 
 @media (max-width: 760px) {
   .price-entry {
-      font-size: 16px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 }
   

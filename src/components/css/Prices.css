@@ -1,23 +1,27 @@
 .sort {
-  margin-left: 8px;
+  margin-left: 20px;
 }
 
 .price-entry-titles {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    font-weight: bold;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-weight: bold;
+  align-items: center;
+}
   
-  .entry-item-title {
-    flex: 1;
-    text-align: center;
-  }
+.entry-item-title {
+  flex: 1;
+  text-align: center;
+}
 
-  #title {
-    text-align: center;
-  }
+#title {
+  text-align: center;
+}
+
+#bullets {
+  margin-left: 20px;
+}
 
 /* Add this to your existing stylesheet */
 
@@ -53,5 +57,3 @@
   outline: none; /* Remove the default focus outline */
   border-color: #4caf50; /* Border color when focused */
 }
-
-

@@ -13,9 +13,9 @@ function App() {
     <Router>
       <div className = "mainBody">
         <div>
-          <h1 id='website'>chilifestbuilds.com</h1>
+          {/* <h1 id='website'>chilifestbuilds.com</h1> */}
         </div>
-        <Countdown />
+        {/* <Countdown /> */}
 
         <Navbar />
         <Routes>
