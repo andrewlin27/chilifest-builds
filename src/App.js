@@ -36,7 +36,7 @@ function App() {
               inaccuracies, changes, or discrepancies made by the participating organizations.
               </p>
               <p>
-                For inquiries regarding any aspects of this website, please contact [Contact Info].
+                For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
               </p>
               <p>
                 Last updated 12/27/2023

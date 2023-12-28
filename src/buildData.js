@@ -22,7 +22,7 @@ export default [
         girls: 85,
         guysBuild: 225,
         girlsBuild: 85,
-        included: "Friday transportation, fanny pack, koozie, food, beverages, shirt",
+        included: "Friday transportation, fanny pack, koozie",
         tshirt: "phideltShirt.png",
         org: "Phi Delt",
         contact: "@aggiephidelt"
@@ -36,7 +36,7 @@ export default [
         girls: 70,
         guysBuild: 70,
         girlsBuild: 30,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Gents/Suits",
         contact: "email@gmail.com"
@@ -50,7 +50,7 @@ export default [
         girls: 85,
         guysBuild: 60,
         girlsBuild: 60,
-        included: "bandana, sticker, food, beverages, shirt",
+        included: "bandana, sticker",
         tshirt: "sigmachiShirt.png",
         org: "Sigma Chi",
         contact: "@tamusigmachi"
@@ -64,7 +64,7 @@ export default [
         girls: 117,
         guysBuild: 225,
         girlsBuild: 117,
-        included: "Friday transportation, cowboy hat, bandana, fanny pack, koozie, live performances, food, beverages, shirt",
+        included: "Friday transportation, cowboy hat, bandana, fanny pack, koozie, live performances",
         tshirt: "pikeShirt.png",
         org: "Pike",
         contact: "Brady Hughes (719) 375-4994"
@@ -78,7 +78,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Delt",
         contact: "@instagram"
@@ -92,7 +92,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Kappa Sig",
         contact: "@instagram"
@@ -106,7 +106,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Beta",
         contact: "@instagram"
@@ -120,7 +120,7 @@ export default [
         girls: 78,
         guysBuild: 165,
         girlsBuild: 30,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Centuries",
         contact: "email@gmail.com"
@@ -134,7 +134,7 @@ export default [
         girls: 75,
         guysBuild: 70,
         girlsBuild: 40,
-        included: "shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "AMA",
         contact: "email@gmail.com"
@@ -148,7 +148,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Sig Ep",
         contact: "email@gmail.com"
@@ -162,7 +162,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Alpha Sig/Delta Sig/Phi Psi",
         contact: "email@gmail.com"
@@ -176,7 +176,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Ol' Ags",
         contact: "email@gmail.com"
@@ -190,7 +190,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "ATO/TKE",
         contact: "email@gmail.com"
@@ -204,7 +204,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "SAE",
         contact: "email@gmail.com"
@@ -218,7 +218,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Fiji",
         contact: "email@gmail.com"
@@ -232,7 +232,7 @@ export default [
         girls: 70,
         guysBuild: 70,
         girlsBuild: 30,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "Paradigm/ABB",
         contact: "jakeseal05@gmail.com"
@@ -246,7 +246,7 @@ export default [
         girls: 999,
         guysBuild: 999,
         girlsBuild: 999,
-        included: "food, beverages, shirt",
+        included: "",
         tshirt: "shirtSoon.jpg",
         org: "One Army",
         contact: "email@gmail.com"

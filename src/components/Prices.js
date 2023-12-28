@@ -36,6 +36,8 @@ const Prices = () => {
 
   return (
     <div>
+      <h1 id='title'>Prices</h1>
+
       <div className='sort'>
         <label htmlFor="sortDropdown">Sort By: </label>
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
@@ -47,19 +49,25 @@ const Prices = () => {
         </select>
       </div>
 
-      <h1 id='title'>Prices</h1>
-
       <div className="price-entry-titles">
         <div className="entry-item-title">Name</div>
         <div className="entry-item-title">Girls Full/Build Only</div>
         <div className="entry-item-title">Guys Full/Build Only</div>
-        <div className="entry-item-title">Included</div>
+        <div className="entry-item-title">Add-ons</div>
       </div>
 
       <div>
         {jsonData.map(item => {
           return <PriceEntry key={item.id} {...item}/>
         })}
+      </div>
+
+      <div className='sort'>
+        <ul >
+          <li>All builds are assumed to include food, beverages, and a shirt.</li>
+          <li>Most build only tickets do NOT include entry to Chilifest.</li>
+          <li>All prices are subject to change. </li>
+        </ul>
       </div>
     </div>
   )
