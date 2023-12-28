@@ -15,12 +15,28 @@
   text-align: center;
 }
 
+@media (min-width: 760px) {
+  .price-entry-titles {
+    font-size: 24px;
+  }
+}
+
 #title {
   text-align: center;
 }
 
-#bullets {
+.bullets {
   margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+@media (max-width: 760px) {
+  .bullets {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
 }
 
 /* Add this to your existing stylesheet */

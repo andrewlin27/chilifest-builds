@@ -50,7 +50,7 @@ const data = [
         girls: 85,
         guysBuild: 60,
         girlsBuild: 60,
-        included: "Bandana, sticker",
+        included: "Bandana, sticker, shirts/hats/fanny packs sold separately",
         tshirt: "sigmachiShirt.png",
         org: "Sigma Chi",
         contact: "@tamusigmachi"
@@ -148,7 +148,7 @@ const data = [
         girls: 78,
         guysBuild: 160,
         girlsBuild: 78,
-        included: "Captain hat bundle (hat, scard, and more)",
+        included: "Captain hat bundle (hat, scarf, and more)",
         tshirt: "sigepShirt.jpg",
         org: "Sig Ep",
         contact: "spechili24@gmail.com"

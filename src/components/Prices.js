@@ -30,10 +30,6 @@ const Prices = () => {
   };
 
 
-
-
-
-
   return (
     <div>
       <h1 id='title'>Prices</h1>
@@ -42,10 +38,10 @@ const Prices = () => {
         <label htmlFor="sortDropdown">Sort By: </label>
         <select id="sortDropdown" value={selectedValue} onChange={handleDropdownChange}>
           <option value="name">Name</option>
-          <option value="girls">Girls Full</option>
-          <option value="girlsBuild">Girls Build Only</option>
-          <option value="guys">Guys Full</option>
-          <option value="guysBuild">Guys Build Only</option>
+          <option value="girls">Girls - Full</option>
+          <option value="girlsBuild">Girls - Build Only</option>
+          <option value="guys">Guys - Full</option>
+          <option value="guysBuild">Guys - Build Only</option>
         </select>
       </div>
 
