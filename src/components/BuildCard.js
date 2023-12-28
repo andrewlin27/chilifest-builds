@@ -10,8 +10,9 @@ export const BuildCard = ({ name, image, link, tshirt, isFlipped = false}) => {
           <img src={`images/flyers/${image}`} alt='not loading' />
           <h2>{name}</h2>
         </div>
+        
         <div className='build-card-back'>
-          <img src={`images/shirts/${tshirt}`}></img>
+          <img src={`images/shirts/${tshirt}`} alt='not loading'></img>
           <h2>{name}</h2>
         </div>
       </div>
