@@ -235,7 +235,7 @@ export default [
         included: "food, beverages, shirt",
         tshirt: "shirtSoon.jpg",
         org: "Paradigm/ABB",
-        contact: "email@gmail.com"
+        contact: "jakeseal05@gmail.com"
     },
     {
         id: 18,
