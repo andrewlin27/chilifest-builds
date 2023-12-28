@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: 1,
         name: "ACEtoberfest", 
@@ -251,4 +251,6 @@ export default [
         org: "One Army",
         contact: "email@gmail.com"
     }
-]
+];
+
+export default data;
