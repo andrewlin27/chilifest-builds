@@ -54,7 +54,7 @@ const Contacts = () => {
           return <ContactEntry key={item.id} {...item} />
         })}
       </div>
-      <ContactEntry name="Chilifest Builds" org="Website Admins" contact="chilifestbuilds@gmail.com" link="https://chilifestbuilds.com/"/>
+      <ContactEntry name="chilifestbuilds.com" org="Website Admins" contact="chilifestbuilds@gmail.com" link="https://chilifestbuilds.com/"/>
     </div>
   )
 }
