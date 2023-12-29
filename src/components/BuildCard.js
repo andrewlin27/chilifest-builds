@@ -7,13 +7,17 @@ export const BuildCard = ({ name, image, link, tshirt, isFlipped = false}) => {
     <div className={`card-div ${isFlipped ? 'flipped' : ''}`} onClick={()=>window.open(link,'_blank')}>
       <div className='build-card'>
         <div className='build-card-front'>
-          <img src={`images/flyers/${image}`} alt='not loading' />
-          <h2>{name}</h2>
+          <img src={`images/flyers/${image}`} alt='not loading'/>
+          <div className='card-name'>
+            <h2>{name}</h2>
+          </div>
         </div>
         
         <div className='build-card-back'>
-          <img src={`images/shirts/${tshirt}`} alt='not loading'></img>
-          <h2>{name}</h2>
+          <img src={`images/shirts/${tshirt}`} alt='not loading'/>
+          <div className='card-name'>
+            <h2>{name}</h2>
+          </div>
         </div>
       </div>
     </div>
