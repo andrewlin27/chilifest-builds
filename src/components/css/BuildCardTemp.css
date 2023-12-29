@@ -5,9 +5,14 @@
     cursor: pointer;
     border-radius: 15px;
     border: 6px solid black;
-
-    width: 300px; /* Adjust the width as needed */
     overflow: hidden;
+    width: 300px;
+  }
+
+  @media (max-width: 760px) {
+    .build-card {
+      width: 135px;
+    }
   }
 
   
@@ -18,18 +23,36 @@
   .build-card img {
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
-
-    width: 100%; /* Make the image fill the container */
-    height: 200px; /* Adjust the height as needed */
     object-fit: cover;
+    width: 100%;
+    height: 310px;
   }
 
+@media (max-width: 760px) {
+    .build-card img {
+      height: 140px;
+    }
+  }
+
+
+  
   .card-name h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 40px;
     color: white; 
+    font-size: 25px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  @media (max-width: 760px) {
+    .card-name h2 {
+        height: 35px;
+        font-size: 15px;
+    }
   }
   
   .build-card .build-card-front {
