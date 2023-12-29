@@ -35,7 +35,7 @@ const Home = () => {
     <div className='home-container'>
       <h1>Home</h1>
 
-      <Countdown/>
+      {/* <Countdown/> */}
       
       <button className='flip-all-button' onClick={handleFlipAllClick}>
         {isAllFlipped ? 'Builds' : 'T-Shirts'}

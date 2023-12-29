@@ -226,7 +226,7 @@ const data = [
     {
         id: 17,
         name: "Chilifest Grand Prix",
-        image: "paradigm.png",
+        image: "paradigm.jpg",
         link: "https://my.cheddarup.com/c/paradigmxabb-chilifest?cart=a654b6d7-dbd3-4eec-b222-cea2bf8e3bc0%21%2169934833",
         guys: 150,
         girls: 70,
