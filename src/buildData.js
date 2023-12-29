@@ -86,16 +86,16 @@ const data = [
     {
         id: 7,
         name: "Kappa Sigma Margaritaville", 
-        image: "comingSoon.jpg", 
-        link: "https://fb.me/e/blSXy29Xp",
-        guys: 999,
-        girls: 999,
-        guysBuild: 999,
-        girlsBuild: 999,
-        included: "",
+        image: "kappasig.PNG", 
+        link: "https://www.facebook.com/groups/347424564563277",
+        guys: 180,
+        girls: 110,
+        guysBuild: 80,
+        girlsBuild: 50,
+        included: "Live music",
         tshirt: "shirtSoon.jpg",
         org: "Kappa Sig",
-        contact: "@instagram"
+        contact: "ksigchilifest@gmail.com"
     },
     {
         id: 8,
