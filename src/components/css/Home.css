@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: auto;
-    gap: 0px 
+    gap: 0px ;
 }
 
 .flip-all-button {

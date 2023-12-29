@@ -1,8 +1,8 @@
 .card-div {
     perspective: 1000px;
 
-    width: 400px;
-    height: 460px;
+    width: 365px;
+    height: 420px;
     margin: 20px 20px 10px;
     border-radius: 15px;
   }
@@ -28,6 +28,7 @@
     .build-card {
       height: 93%;
     }
+
   }
   
   .card-div.flipped .build-card {
@@ -58,7 +59,7 @@
 
   @media (max-width: 760px) {
     .build-card h2 {
-      font-size: 15px;
+      font-size: 11px;
     }
   }
   
