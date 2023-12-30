@@ -29,7 +29,7 @@ function App() {
             <p>Created by Andrew Lin, Sid Venkatraman, Eric McGonagle</p>
             <div className="warning">
               <p>
-              This platform (not affiliated with Chilifest) is created to centralize information about Chilifest builds. 
+              Created by 3 friends, not affiliated with Chilifest. 
               The content on this website is provided with the explicit permission of each organization featured. 
               While we strive to maintain accurate and up-to-date information, we are not responsible for any 
               inaccuracies, changes, or discrepancies made by the participating organizations.
@@ -38,7 +38,8 @@ function App() {
                 For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
               </p>
               <p className='underlined-text'>
-                Last updated 12/28/2023
+                Last updated 1/15/2024
+                {/* Target deploy date ^^ */}
               </p>
             </div>
           </div>
