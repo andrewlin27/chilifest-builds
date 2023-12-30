@@ -37,7 +37,7 @@ function App() {
               <p>
                 For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
               </p>
-              <p>
+              <p className='underlined-text'>
                 Last updated 12/28/2023
               </p>
             </div>
