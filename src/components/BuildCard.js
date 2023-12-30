@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './css/BuildCardTemp.css';
+import './css/BuildCard.css';
 
 export const BuildCard = ({ name, image, link, tshirt, isFlipped = false}) => {
   return (
