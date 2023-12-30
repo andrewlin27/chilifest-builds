@@ -117,7 +117,7 @@ const data = [
         image: "comingSoon.jpg",
         link: "https://fb.me/e/blSXy29Xp",
         guys: 165,
-        girls: 78,
+        girls: 98,
         guysBuild: 165,
         girlsBuild: 30,
         included: "",
