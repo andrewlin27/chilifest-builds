@@ -1,7 +1,7 @@
 .card-div {
   perspective: 1000px;
-  width: 320px;
-  height: 395px;
+  width: 350px;
+  height: 432px;
   border-radius: 15px;
   border: 6px solid black;
   position: relative;
@@ -68,7 +68,7 @@
 
 img {
   width: 100%;
-  height: 330px; /*must sum to total height with .card-name */
+  height: 367px; /*must sum to total height with .card-name */
   object-fit: cover;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
