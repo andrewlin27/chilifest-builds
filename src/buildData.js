@@ -30,14 +30,14 @@ const data = [
     {
         id: 3,
         name: "The Masters", 
-        image: "comingSoon.jpg", 
+        image: "gentsSuits.jpg", 
         link: "https://my.cheddarup.com/c/the-masters-at-chilifest?cart=18f4b632-c84d-4d55-ac5c-7dbb701b5289%21%2169957679",
         guys: 170,
         girls: 70,
         guysBuild: 70,
         girlsBuild: 30,
         included: "",
-        tshirt: "shirtSoon.jpg",
+        tshirt: "gentssuitsShirt.png",
         org: "Gents/Suits",
         contact: "email@gmail.com"
     },
@@ -100,7 +100,7 @@ const data = [
     {
         id: 8,
         name: "Beta Born in the USA", 
-        image: "comingSoon.jpg", 
+        image: "Beta.jpg", 
         link: "https://fb.me/e/blSXy29Xp",
         guys: 999,
         girls: 999,
@@ -128,14 +128,14 @@ const data = [
     {
         id: 10,
         name: "Chili Olympics",
-        image: "comingSoon.jpg",
+        image: "AMA.jpg",
         link: "https://amaolympics.squarespace.com/",
         guys: 185,
         girls: 75,
         guysBuild: 70,
         girlsBuild: 40,
         included: "",
-        tshirt: "shirtSoon.jpg",
+        tshirt: "AMAShirt.jpg",
         org: "AMA",
         contact: "email@gmail.com"
     },
