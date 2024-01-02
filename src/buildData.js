@@ -8,7 +8,7 @@ const data = [
         girls: 85,
         guysBuild: "--",
         girlsBuild: "--",
-        included: "A damn good time",
+        included: "",
         tshirt: "comingSoon.jpg",
         org: "ACE",
         contact: "@aggieclubofengineers"
