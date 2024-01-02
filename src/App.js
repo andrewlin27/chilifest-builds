@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Home from './components/Home';
 import Prices from './components/Prices';
 import Map from './components/Map';
@@ -9,7 +10,7 @@ import Navbar from './components/Navbar';
 function App() {
 
   return (
-    <Router>
+    // <Router>
       <div className = "mainBody">
         <div>
           {/* <h1 id='website'>chilifestbuilds.com</h1> */}
@@ -46,7 +47,7 @@ function App() {
         </footer>
 
       </div>
-    </Router>
+    // </Router>
   );
 }
 
