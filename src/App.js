@@ -10,44 +10,42 @@ import Navbar from './components/Navbar';
 function App() {
 
   return (
-    // <Router>
-      <div className = "mainBody">
-        <div>
-          {/* <h1 id='website'>chilifestbuilds.com</h1> */}
-        </div>
-        {/* <Countdown /> */}
-
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/prices" element={<Prices/>} />
-          <Route path="/map" element={<Map/>} />
-          <Route path="/contacts" element={<Contacts/>} />
-        </Routes>
-
-        <footer className="footer">
-          <div className="footer-content">
-            <p>Created by Andrew Lin, Sid Venkatraman, Eric McGonagle</p>
-            <div className="warning">
-              <p>
-              Created by 3 friends, not affiliated with Chilifest. 
-              The content on this website is provided with the explicit permission of each organization featured. 
-              While we strive to maintain accurate and up-to-date information, we are not responsible for any 
-              inaccuracies, changes, or discrepancies made by the participating organizations.
-              </p>
-              <p>
-                For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
-              </p>
-              <p className='underlined-text'>
-                Last updated 1/15/2024
-                {/* Target deploy date ^^ */}
-              </p>
-            </div>
-          </div>
-        </footer>
-
+    <div className = "mainBody">
+      <div>
+        {/* <h1 id='website'>chilifestbuilds.com</h1> */}
       </div>
-    // </Router>
+      {/* <Countdown /> */}
+
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/prices" element={<Prices/>} />
+        <Route path="/map" element={<Map/>} />
+        <Route path="/contacts" element={<Contacts/>} />
+      </Routes>
+
+      <footer className="footer">
+        <div className="footer-content">
+          <p>Created by Andrew Lin, Sid Venkatraman, Eric McGonagle</p>
+          <div className="warning">
+            <p>
+            Not affiliated with Chilifest. 
+            The content on this website is provided with the explicit permission of each organization featured. 
+            While we strive to maintain accurate and up-to-date information, we are not responsible for any 
+            inaccuracies, changes, or discrepancies made by the participating organizations.
+            </p>
+            <p>
+              For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
+            </p>
+            <p className='underlined-text'>
+              Last updated 1/15/2024
+              {/* Target deploy date ^^ */}
+            </p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
   );
 }
 
