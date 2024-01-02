@@ -16,6 +16,17 @@ const Prices = () => {
         const valueA = typeof a[selectedValue] === 'string' ? a[selectedValue].toLowerCase() : a[selectedValue];
         const valueB = typeof b[selectedValue] === 'string' ? b[selectedValue].toLowerCase() : b[selectedValue];
 
+        if (valueA === "--")
+        {
+          return 1;
+        }
+
+        if (valueB === "--")
+        {
+          return -1
+        }
+
+
         if (valueA < valueB) return -1;
         if (valueA > valueB) return 1;
         return 0;
