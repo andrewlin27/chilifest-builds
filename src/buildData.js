@@ -39,7 +39,7 @@ const data = [
         included: "",
         tshirt: "gentssuitsShirt.png",
         org: "Gents/Suits",
-        contact: "email@gmail.com"
+        contact: "Arjun Khale (469) 416-6416"
     },
     {
         id: 4,
@@ -131,13 +131,13 @@ const data = [
         image: "AMA.jpg",
         link: "https://amaolympics.squarespace.com/",
         guys: 185,
-        girls: 75,
+        girls: 85,
         guysBuild: 70,
         girlsBuild: 40,
         included: "",
         tshirt: "AMAShirt.jpg",
         org: "AMA",
-        contact: "email@gmail.com"
+        contact: "aggiemensalliance@gmail.com"
     },
     {
         id: 11,
