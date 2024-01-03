@@ -47,7 +47,7 @@ const Countdown = () => {
     return () => clearInterval(intervalId);
 
     // Run the initial update
-    updateCountdown();
+    // updateCountdown();
   }, []); // Empty dependency array means this effect runs once on mount
 
   return (

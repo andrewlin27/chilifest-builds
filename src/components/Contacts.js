@@ -54,7 +54,12 @@ const Contacts = () => {
           return <ContactEntry key={item.id} {...item} />
         })}
       </div>
-      {/* <ContactEntry name="chilifestbuilds.com" org="Website Admins" contact="chilifestbuilds@gmail.com" link="https://chilifestbuilds.com/"/> */}
+
+      <div className='bullets'>
+        <ul>
+          <li>Click on name or organization to view ticket page.</li>
+        </ul>
+      </div>
     </div>
   )
 }

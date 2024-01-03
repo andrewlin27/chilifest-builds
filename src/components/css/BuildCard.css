@@ -46,8 +46,8 @@
       #784ba0 50%,
       #2b86c5 100%
   );
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
@@ -59,16 +59,16 @@
       #784ba0 50%,
       #2b86c5 100%
   );
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   transform: rotateY(180deg);
 }
 
 img {
   width: 100%;
-  height: 367px; /*must sum to total height with .card-name */
+  height: 362px; /*must sum to total height with .card-name */
   object-fit: cover;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
@@ -82,9 +82,8 @@ img {
 
 .card-name {
   margin: 0;
-  color: white; 
-  font-size: 20px;
-  height: 65px; /*must sum to total height with img */
+  color: white;
+  height: 70px; /*must sum to total height with img */
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   display: flex;
   align-items: center;
@@ -94,10 +93,16 @@ img {
 @media (max-width: 760px) {
   .card-name {
       height: 30px;
-      font-size: 10px;
   }
 }
 
 h2 {
   margin: 0;
+  font-size: 30px;
+}
+
+@media (max-width: 760px) {
+  h2 {
+      font-size: 13px;
+  }
 }
