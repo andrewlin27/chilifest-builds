@@ -149,7 +149,7 @@ const data = [
         guysBuild: "--",
         girlsBuild: "--",
         included: "Captain hat bundle (hat, scarf, and more)",
-        tshirt: "sigepShirt.jpg",
+        tshirt: "sigepShirt.png",
         org: "Sig Ep",
         contact: "spechili24@gmail.com"
     },
