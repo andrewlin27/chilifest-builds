@@ -135,7 +135,7 @@ const data = [
         guysBuild: 70,
         girlsBuild: 40,
         included: "Jersey and hat sold separately",
-        tshirt: "AMAShirt.jpg",
+        tshirt: "AMAShirt.png",
         org: "AMA",
         contact: "aggiemensalliance@gmail.com"
     },
