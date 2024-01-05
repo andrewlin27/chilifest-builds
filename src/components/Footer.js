@@ -18,8 +18,7 @@ const Footer = () => {
               For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
             </p>
             <p className='underlined-text'>
-              Last updated 1/15/2024
-              {/* Target deploy date ^^ */}
+              Last updated 1/5/2024
             </p>
           </div>
         </div>

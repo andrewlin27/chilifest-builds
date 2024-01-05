@@ -100,7 +100,7 @@ const data = [
     {
         id: 8,
         name: "Beta Born in the USA", 
-        image: "Beta.jpg", 
+        image: "beta.png", 
         link: "",
         guys: "--",
         girls: "--",
