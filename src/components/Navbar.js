@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import './css/Navbar.css'
 
 const Navbar = () => {
@@ -13,6 +13,7 @@ const Navbar = () => {
                 <li className='nav-item'><Link to="/map" className='nav-link'>Map</Link></li>
             </ul>
         </nav>
+        <Outlet />
     </div>
   )
 }

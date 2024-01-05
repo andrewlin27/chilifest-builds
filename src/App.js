@@ -12,16 +12,16 @@ function App() {
 
   return (
     <div className = "mainBody">
-      <BrowserRouter>
+      <BrowserRouter basename='/chilifest-builds/'>
         {/* <Countdown /> */}
-        
-        <Navbar/>
 
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="prices" element={<Prices/>} />
-          <Route path="map" element={<Map/>} />
-          <Route path="contacts" element={<Contacts/>} />
+          <Route path="/" element={<Navbar/>}>
+            <Route index element={<Home/>} />
+            <Route path="prices" element={<Prices/>} />
+            <Route path="map" element={<Map/>} />
+            <Route path="contacts" element={<Contacts/>} />
+          </Route>
         </Routes>
 
         <Footer />
