@@ -15,7 +15,7 @@ const Footer = () => {
             inaccuracies, changes, or discrepancies made by the participating organizations.
             </p>
             <p>
-              For inquiries regarding any aspects of this website, please contact chilifestbuilds@gmail.com.
+              For any inquiries regarding the addition of your organization's chilifest build or any other aspects of this website, please contact chilifestbuilds@gmail.com.
             </p>
             <p className='underlined-text'>
               Last updated 1/5/2024

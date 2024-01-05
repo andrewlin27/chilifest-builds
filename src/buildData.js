@@ -11,7 +11,7 @@ const data = [
         included: "",
         tshirt: "comingSoon.jpg",
         org: "ACE",
-        contact: "@aggieclubofengineers"
+        contact: "tamuacepresident@gmail.com"
     },
     {
         id: 2,
@@ -19,10 +19,10 @@ const data = [
         image: "phidelt.jpg", 
         link: "https://www.eventbrite.com/e/phi-delt-las-vegas-tickets-731622431387?utm_experiment=test_share_listing&aff=ebdsshios",
         guys: 225,
-        girls: 85,
+        girls: 100,
         guysBuild: "--",
         girlsBuild: "--",
-        included: "Friday transportation, fanny pack, koozie",
+        included: "Friday transportation, fanny pack, koozie. Shirt included for girls only",
         tshirt: "phideltShirt.png",
         org: "Phi Delt",
         contact: "@aggiephidelt"
@@ -50,7 +50,7 @@ const data = [
         girls: 85,
         guysBuild: 60,
         girlsBuild: 60,
-        included: "Bandana, sticker, shirts/hats/fanny packs sold separately",
+        included: "Included for girls only: Shirt, bandana, sticker. Sold separately: other shirts, hat, fanny packs",
         tshirt: "sigmachiShirt.png",
         org: "Sigma Chi",
         contact: "@tamusigmachi"
@@ -61,7 +61,7 @@ const data = [
         image: "pike.jpg", 
         link: "https://www.facebook.com/events_invite_off_fb/link_sharing/1531239684328617/?inviter_id=100004758856893&token=fxpEXNbxl-iOmcGhiJsTVjBybn6rUaTF4pPU-Caf3Eo",
         guys: 225,
-        girls: 117,
+        girls: 127,
         guysBuild: "--",
         girlsBuild: "--",
         included: "Friday transportation, cowboy hat, bandana, fanny pack, koozie, live performances",
@@ -117,7 +117,7 @@ const data = [
     //     image: "comingSoon.jpg",
     //     link: "https://fb.me/e/blSXy29Xp",
     //     guys: 165,
-    //     girls: 98,
+    //     girls: 88,
     //     guysBuild: "--",
     //     girlsBuild: 30,
     //     included: "",
@@ -134,7 +134,7 @@ const data = [
         girls: 85,
         guysBuild: 70,
         girlsBuild: 40,
-        included: "",
+        included: "Jersey and hat sold separately",
         tshirt: "AMAShirt.jpg",
         org: "AMA",
         contact: "aggiemensalliance@gmail.com"
