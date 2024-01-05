@@ -15,13 +15,13 @@ function App() {
       <BrowserRouter>
         {/* <Countdown /> */}
         
+        <Navbar/>
+        
         <Routes>
-          <Route path="/" element={<Navbar/>}>
-            <Route index element={<Home/>} />
-            <Route path="prices" element={<Prices/>} />
-            <Route path="map" element={<Map/>} />
-            <Route path="contacts" element={<Contacts/>} />
-          </Route>
+          <Route index element={<Home/>} />
+          <Route path="prices" element={<Prices/>} />
+          <Route path="map" element={<Map/>} />
+          <Route path="contacts" element={<Contacts/>} />
         </Routes>
 
         <Footer />
