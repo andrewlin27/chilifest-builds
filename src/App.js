@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className = "mainBody">
-      <BrowserRouter basename='chilifest-builds/'>
+      <BrowserRouter>
         {/* <Countdown /> */}
         
         <Navbar/>
