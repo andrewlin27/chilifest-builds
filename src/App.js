@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Prices from './components/Prices';
 import Map from './components/Map';
@@ -12,21 +12,17 @@ function App() {
 
   return (
     <div className = "mainBody">
-      <BrowserRouter basename='/chilifest-builds/'>
         {/* <Countdown /> */}
+        <Navbar />
 
         <Routes>
-          <Route path="/" element={<Navbar/>}>
-            <Route index element={<Home/>} />
-            <Route path="prices" element={<Prices/>} />
-            <Route path="map" element={<Map/>} />
-            <Route path="contacts" element={<Contacts/>} />
-          </Route>
+            <Route path="/" element={<Home/>} />
+            <Route path="/prices" element={<Prices/>} />
+            <Route path="/contacts" element={<Contacts/>} />
+            <Route path="/map" element={<Map/>} />
         </Routes>
 
         <Footer />
-      </BrowserRouter>
-
     </div>
   );
 }
