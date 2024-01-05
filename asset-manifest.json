@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/chilifest-builds/static/css/main.07a15d18.css",
-    "main.js": "/chilifest-builds/static/js/main.191b0c39.js",
+    "main.css": "/chilifest-builds/static/css/main.cc0523d1.css",
+    "main.js": "/chilifest-builds/static/js/main.ebd4a8be.js",
     "index.html": "/chilifest-builds/index.html",
-    "main.07a15d18.css.map": "/chilifest-builds/static/css/main.07a15d18.css.map",
-    "main.191b0c39.js.map": "/chilifest-builds/static/js/main.191b0c39.js.map"
+    "main.cc0523d1.css.map": "/chilifest-builds/static/css/main.cc0523d1.css.map",
+    "main.ebd4a8be.js.map": "/chilifest-builds/static/js/main.ebd4a8be.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a15d18.css",
-    "static/js/main.191b0c39.js"
+    "static/css/main.cc0523d1.css",
+    "static/js/main.ebd4a8be.js"
   ]
 }
