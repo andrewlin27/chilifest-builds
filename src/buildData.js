@@ -22,7 +22,7 @@ const data = [
         girls: 100,
         guysBuild: "--",
         girlsBuild: "--",
-        included: "Friday transportation, fanny pack, koozie. Shirt included for girls only",
+        included: "Day 1 transportation, fanny pack, koozie. Shirt included for girls only",
         tshirt: "phideltShirt.png",
         org: "Phi Delt",
         contact: "@aggiephidelt"
@@ -64,7 +64,7 @@ const data = [
         girls: 127,
         guysBuild: "--",
         girlsBuild: "--",
-        included: "Friday transportation, cowboy hat, bandana, fanny pack, koozie, live performances",
+        included: "Day 1 transportation, cowboy hat, bandana, fanny pack, koozie, live performances",
         tshirt: "pikeShirt.png",
         org: "Pike",
         contact: "Brady Hughes (719) 375-4994"
@@ -181,20 +181,20 @@ const data = [
     //     org: "Ol' Ags",
     //     contact: "email@gmail.com"
     // },
-    // {
-    //     id: 14,
-    //     name: "Taulapalooza",
-    //     image: "comingSoon.jpg",
-    //     link: "https://fb.me/e/blSXy29Xp",
-    //     guys: 999,
-    //     girls: 999,
-    //     guysBuild: 999,
-    //     girlsBuild: 999,
-    //     included: "",
-    //     tshirt: "comingSoon.jpg",
-    //     org: "ATO/TKE",
-    //     contact: "email@gmail.com"
-    // },
+    {
+        id: 14,
+        name: "Taulapalooza",
+        image: "atotke.JPG",
+        link: "https://www.taulapalooza.store/",
+        guys: 160,
+        girls: 70,
+        guysBuild: "--",
+        girlsBuild: "--",
+        included: "Day 1 transportation, fanny pack, koozie, live performances, Zach Bryan autographed guitar raffle",
+        tshirt: "atotkeShirt.JPG",
+        org: "ATO/TKE",
+        contact: "@aggie.ato or @aggietke"
+    },
     // {
     //     id: 15,
     //     name: "Space Rodeo",
