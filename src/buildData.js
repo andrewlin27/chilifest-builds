@@ -127,7 +127,7 @@ const data = [
     // },
     {
         id: 10,
-        name: "Chili Olympics",
+        name: "AMA Olympics",
         image: "AMA.jpg",
         link: "https://amaolympics.squarespace.com/",
         guys: 185,
@@ -141,7 +141,7 @@ const data = [
     },
     {
         id: 11,
-        name: "Shipwrecked",
+        name: "Sig Ep Shipwrecked",
         image: "sigep.jpg",
         link: "https://www.bouncelife.com/events/6571ef70a2e4796d97f9ecb1",
         guys: 160,
