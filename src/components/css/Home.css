@@ -21,8 +21,11 @@
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 40px;
+    transition: background-color 0.3s ease-in-out;
+
   }
   
   .flip-all-button:hover {
-    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #398a3f;
   }
