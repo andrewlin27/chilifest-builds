@@ -29,7 +29,7 @@ const data = [
     },
     {
         id: 3,
-        name: "The Masters", 
+        name: "Gents & Suits: The Masters", 
         image: "gentsSuits.png", 
         link: "https://my.cheddarup.com/c/the-masters-at-chilifest?cart=18f4b632-c84d-4d55-ac5c-7dbb701b5289%21%2169957679",
         guys: 170,
@@ -69,20 +69,20 @@ const data = [
         org: "Pike",
         contact: "Brady Hughes (719) 375-4994"
     },
-    // {
-    //     id: 6,
-    //     name: "Delts Angels", 
-    //     image: "comingSoon.jpg", 
-    //     link: "https://fb.me/e/blSXy29Xp",
-    //     guys: 999,
-    //     girls: 999,
-    //     guysBuild: 999,
-    //     girlsBuild: 999,
-    //     included: "",
-    //     tshirt: "comingSoon.jpg",
-    //     org: "Delt",
-    //     contact: "@instagram"
-    // },
+    {
+        id: 6,
+        name: "Delts Angels", 
+        image: "delt.JPG", 
+        link: "https://my.cheddarup.com/c/delts-angels?cart=cf3b4bda-8331-4ce7-9259-341d8b256746%21%2170549347",
+        guys: 185,
+        girls: 100,
+        guysBuild: "--",
+        girlsBuild: "--",
+        included: "Fanny pack, bandana, tattoos, drinking straw, and more",
+        tshirt: "comingSoon.jpg",
+        org: "Delt",
+        contact: "@aggiedelts"
+    },
     {
         id: 7,
         name: "Kappa Sigma Margaritaville", 
@@ -100,16 +100,16 @@ const data = [
     {
         id: 8,
         name: "Beta Born in the USA", 
-        image: "beta.png", 
-        link: "",
-        guys: "--",
-        girls: "--",
+        image: "beta.JPG", 
+        link: "https://ticketbud.com/events/03ef98f0-ae5d-11ee-b78e-42010a71702b",
+        guys: "155",
+        girls: "80",
         guysBuild: "--",
         girlsBuild: "--",
         included: "",
         tshirt: "comingSoon.jpg",
         org: "Beta",
-        contact: "@aggiebeta"
+        contact: "Joe Ledet (713) 396-9828"
     },
     // {
     //     id: 9,
@@ -167,23 +167,23 @@ const data = [
     //     org: "Alpha Sig/Delta Sig/Phi Psi",
     //     contact: "email@gmail.com"
     // },
-    // {
-    //     id: 13,
-    //     name: "The Donks",
-    //     image: "comingSoon.jpg",
-    //     link: "https://fb.me/e/blSXy29Xp",
-    //     guys: 999,
-    //     girls: 999,
-    //     guysBuild: 999,
-    //     girlsBuild: 999,
-    //     included: "",
-    //     tshirt: "comingSoon.jpg",
-    //     org: "Ol' Ags",
-    //     contact: "email@gmail.com"
-    // },
+    {
+        id: 13,
+        name: "Ol Ags: The Donks",
+        image: "ol_ags.JPG",
+        link: "https://bagpipe-manatee-myn7.squarespace.com/",
+        guys: 160,
+        girls: 70,
+        guysBuild: 65,
+        girlsBuild: 30,
+        included: "",
+        tshirt: "comingSoon.jpg",
+        org: "Ol Ags",
+        contact: "olags.president@gmail.com"
+    },
     {
         id: 14,
-        name: "Taulapalooza",
+        name: "TKE & ATO Taulapalooza",
         image: "atotke.JPG",
         link: "https://www.taulapalooza.store/",
         guys: 160,
@@ -191,8 +191,8 @@ const data = [
         guysBuild: "--",
         girlsBuild: "--",
         included: "Day 1 transportation, fanny pack, koozie, live performances, Zach Bryan autographed guitar raffle",
-        tshirt: "atotkeShirt.JPG",
-        org: "ATO/TKE",
+        tshirt: "atotkeShirt.png",
+        org: "TKE/ATO",
         contact: "@aggie.ato or @aggietke"
     },
     // {
@@ -224,7 +224,7 @@ const data = [
     // },
     {
         id: 17,
-        name: "Chilifest Grand Prix",
+        name: "Paradigm & ABB Grand Prix",
         image: "paradigm.jpg",
         link: "https://my.cheddarup.com/c/paradigmxabb-chilifest?cart=a654b6d7-dbd3-4eec-b222-cea2bf8e3bc0%21%2169934833",
         guys: 150,
