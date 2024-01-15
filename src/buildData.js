@@ -37,7 +37,7 @@ const data = [
         guysBuild: 70,
         girlsBuild: 30,
         included: "",
-        tshirt: "gentssuitsShirt.PNG",
+        tshirt: "gentssuitsShirt.png",
         org: "Gents/Suits",
         contact: "Arjun Khale (469) 416-6416"
     },
@@ -135,7 +135,7 @@ const data = [
         guysBuild: 70,
         girlsBuild: 40,
         included: "Jersey and hat sold separately",
-        tshirt: "AMAShirt.png",
+        tshirt: "amaShirt.png",
         org: "AMA",
         contact: "aggiemensalliance@gmail.com"
     },
