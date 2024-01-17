@@ -111,20 +111,20 @@ const data = [
         org: "Beta",
         contact: "Joe Ledet (713) 396-9828"
     },
-    // {
-    //     id: 9,
-    //     name: "Willystock",
-    //     image: "comingSoon.jpg",
-    //     link: "https://fb.me/e/blSXy29Xp",
-    //     guys: 165,
-    //     girls: 88,
-    //     guysBuild: "--",
-    //     girlsBuild: 30,
-    //     included: "",
-    //     tshirt: "comingSoon.jpg",
-    //     org: "Centuries",
-    //     contact: "email@gmail.com"
-    // },
+    {
+        id: 9,
+        name: "Willystock",
+        image: "willystock.jpg",
+        link: "https://fb.me/1OUr1TTOnjuJ3pD",
+        guys: 165,
+        girls: 88,
+        guysBuild: "--",
+        girlsBuild: 30,
+        included: "",
+        tshirt: "comingSoon.jpg",
+        org: "     ",
+        contact: "@willystock2024"
+    },
     {
         id: 10,
         name: "AMA Olympics",
