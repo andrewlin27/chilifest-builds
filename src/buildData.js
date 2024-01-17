@@ -11,7 +11,7 @@ const data = [
         included: "",
         tshirt: "comingSoon.jpg",
         org: "ACE",
-        contact: "tamuacepresident@gmail.com"
+        contact: "Van Wilcox (409) 239-4251"
     },
     {
         id: 2,
@@ -141,7 +141,7 @@ const data = [
     },
     {
         id: 11,
-        name: "Sig Ep Shipwrecked",
+        name: "SigEp Shipwrecked",
         image: "sigep.jpg",
         link: "https://www.bouncelife.com/events/6571ef70a2e4796d97f9ecb1",
         guys: 160,
@@ -150,7 +150,7 @@ const data = [
         girlsBuild: "--",
         included: "Captain hat bundle (hat, scarf, and more)",
         tshirt: "sigepShirt.png",
-        org: "Sig Ep",
+        org: "SigEp",
         contact: "spechili24@gmail.com"
     },
     // {
@@ -235,7 +235,7 @@ const data = [
         tshirt: "comingSoon.jpg",
         org: "Paradigm/ABB",
         contact: "jakeseal05@gmail.com"
-    }
+    },
     // },
     // {
     //     id: 18,
@@ -250,7 +250,21 @@ const data = [
     //     tshirt: "comingSoon.jpg",
     //     org: "One Army",
     //     contact: "email@gmail.com"
-    // }
+    // },
+    {
+        id: 19,
+        name: "AGR Rhodeo Revival",
+        image: "agr.png",
+        link: "https://my.cheddarup.com/c/alpha-gamma-rho-chilifest-2024-tickets?cart=5b405bce-e3bd-4109-a069-ca5618ada740%21%2170781114&fbclid=PAAaZUiAMsuqG_vkDVZxu7-DTg4Xat6Pqo1VCVS2yRBB_Jxc7C5vMT5BVje9Y_aem_AVnUQXHACmseI49A_r8_foMsL_vL7pAT4XbNJ-dCy6lcXPQv3R91ujNOKPNlD3AyZv8",
+        guys: 160,
+        girls: 94,
+        guysBuild: "--",
+        girlsBuild: "--",
+        included: "",
+        tshirt: "agrShirt.png",
+        org: "AGR",
+        contact: "@agr_tamu"
+    }
 ];
 
 export default data;
