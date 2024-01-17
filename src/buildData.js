@@ -187,7 +187,7 @@ const data = [
         image: "atotke.JPG",
         link: "https://www.taulapalooza.store/",
         guys: 160,
-        girls: 70,
+        girls: 80,
         guysBuild: "--",
         girlsBuild: "--",
         included: "Day 1 transportation, fanny pack, koozie, live performances, Zach Bryan autographed guitar raffle",
