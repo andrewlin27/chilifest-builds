@@ -57,7 +57,7 @@ const Contacts = () => {
 
       <div className='bullets'>
         <ul>
-          <li>Click on name or organization to view ticket page.</li>
+          <li>Click on name or organization to view website.</li>
         </ul>
       </div>
     </div>
