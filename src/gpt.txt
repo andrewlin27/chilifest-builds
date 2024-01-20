@@ -31,4 +31,4 @@ secondary card's background: linear-gradient(
 secondary card text: #ffffff
 secondary card text shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
 
-change the colors to fit an american theme by changing these colors. 
+change the colors to fit an american theme. make sure the text is contrasted enough with the background so that it is easy to read. 
