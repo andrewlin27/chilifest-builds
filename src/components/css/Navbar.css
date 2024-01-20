@@ -2,7 +2,7 @@
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #1a1a1a;
 }
 
 .nav-list {
@@ -25,7 +25,7 @@
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     font-size: 24px;
     transition: color 0.3s ease-in-out;
@@ -44,5 +44,5 @@
 }
 
 .nav-link:hover {
-    color: #5AF;
+    color: #CD853F;
 }

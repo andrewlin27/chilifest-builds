@@ -3,7 +3,7 @@ const data = [
         id: 1,
         name: "ACEtoberfest", 
         image: "ace.png", 
-        link: "https://fb.me/e/blSXy29Xp",
+        link: "https://fb.me/1GGqQMp70hDEND3",
         ticketLink: "https://fb.me/e/blSXy29Xp",
         guys: 140,
         girls: 85,

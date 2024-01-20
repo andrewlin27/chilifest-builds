@@ -1,0 +1,34 @@
+themes:
+christmas
+american
+oceanic
+sunset
+galactic
+vintage
+tropical autumn
+fiesta
+pastel
+
+i have these colors on my webpage currently: 
+main-background: #F8F8FF
+main text: #000000
+main card's background: linear-gradient(
+      225deg,
+      #ff3cac 0%,
+      #784ba0 50%,
+      #2b86c5 100%
+  )
+main card text: #ffffff
+main card text shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+navbar and footer background: #333
+navbar and footer text: #ffffff
+secondary card's background: linear-gradient(
+      225deg,
+      #ff3cac 0%,
+      #784ba0 50%,
+      #2b86c5 100%
+  )
+secondary card text: #ffffff
+secondary card text shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+
+change the colors to fit an american theme by changing these colors. 

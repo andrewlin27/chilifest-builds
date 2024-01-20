@@ -44,9 +44,9 @@
 .build-card-front {
   background: linear-gradient(
       225deg,
-      #ff3cac 0%,
-      #784ba0 50%,
-      #2b86c5 100%
+      #FFA07A 0%,
+      #D2691E 70%,
+      #8B4513 100%
   );
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
@@ -104,7 +104,7 @@ img {
 
 .card-name {
   margin: 0;
-  color: white;
+  color: #ffffff;
   height: 70px; /*must sum to total height with img */
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   display: flex;
