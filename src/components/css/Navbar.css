@@ -2,7 +2,7 @@
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    background-color: #1a1a1a;
+    background-color: #393939;
 }
 
 .nav-list {
@@ -44,5 +44,5 @@
 }
 
 .nav-link:hover {
-    color: #CD853F;
+    color: #99002F;
 }

@@ -42,12 +42,7 @@
 }
 
 .build-card-front {
-  background: linear-gradient(
-    225deg,
-    #FFA07A 0%,
-    #D2691E 70%,
-    #8B4513 100%
-  );
+  background: #131F48;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -64,12 +59,7 @@
 }
 
 .build-card-back {
-  background: linear-gradient(
-    225deg,
-    #FFA07A 0%,
-    #D2691E 70%,
-    #8B4513 100%
-  );
+  background: #131F48;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -106,7 +96,7 @@ img {
   margin: 0;
   color: #ffffff;
   height: 70px; /*must sum to total height with img */
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;

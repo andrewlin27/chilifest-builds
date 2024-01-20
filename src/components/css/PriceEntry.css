@@ -3,20 +3,15 @@
     justify-content: space-between;
     align-items: center;
     border: 5px solid #000;
-    border-radius:20px;
+    border-radius:10px;
     padding: 8px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 8px;
     font-size: 25px;
-    background: linear-gradient(
-      225deg,
-      #E9967A  0%,
-      #CD853F  50%,
-      #8B4513  100%
-  );
-    color: white;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    background: #99002F;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.5); 
     font-weight: bold;
     box-shadow: 0 4px 0 #888888;
     margin-bottom: 10px;
