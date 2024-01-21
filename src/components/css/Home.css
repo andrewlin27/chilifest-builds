@@ -13,7 +13,7 @@
 }
 
 .flip-all-button {
-    background-color: #4caf50;
+    background-color: #99002F;
     color: white;
     padding: 10px 15px;
     font-size: 16px;
@@ -27,5 +27,5 @@
   
   .flip-all-button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #398a3f;
+    background-color: #D50141;
   }
