@@ -283,6 +283,21 @@ const data = [
         tshirt: "agrShirt.png",
         org: "AGR",
         contact: "@agr_tamu"
+    },
+    {
+        id: 20,
+        name: "Theta Chi Chiami Beach",
+        image: "thetachi.png",
+        link: "https://www.bouncelife.com/events/65c315e665c73ae1c154022b",
+        ticketLink: "https://www.bouncelife.com/events/65c315e665c73ae1c154022b",
+        guys: 180,
+        girls: 95,
+        guysBuild: 80,
+        girlsBuild: 20,
+        included: "$500 pong tournament entry (build-only tickets excluded)",
+        tshirt: "thetachiShirt.png",
+        org: "Theta Chi",
+        contact: "@aggiethetachi"
     }
 ];
 
