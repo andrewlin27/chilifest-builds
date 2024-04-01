@@ -10,6 +10,7 @@
 
 @media (max-width: 760px) {
     .map-img {
+        max-width: 90%;
         border-radius: 10px;
     }
 }
