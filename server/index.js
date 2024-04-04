@@ -10,11 +10,15 @@ const fs = require('fs')
 const app = express();
 app.use(cors());
 app.use(express.json());
-const port = 443;
 
-const options = {
-    key: fs.readFileSync('./cert/key.pem'),
-    cert: fs.readFileSync('./cert/cert.pem')
+const port = 5000;
+
+const key = fs.readFileSync('./private.key')
+const cert = fs.readFileSync('./certificate.crt')
+
+const cred = {
+    key,
+    cert
 }
 
 const client = new Client({
@@ -97,10 +101,10 @@ app.delete('/api/posts/:post_id', async (req, res) => {
 });
 
 
-// app.listen(port, () => {
-//     console.log(`Server is running on port ${port}`);
-// });
-
-https.createServer(options, app).listen(port, () => {
+app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
-})
+});
+
+
+const httpsServer = https.createServer(cred, app)
+httpsServer.listen(8443);
