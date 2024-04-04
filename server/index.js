@@ -34,7 +34,7 @@ client.connect();
 
 cron.schedule('*/10 * * * *', () => {
     // delete entries older than 24 hours
-    const query = `DELETE FROM posts WHERE created_at < NOW() - INTERVAL '48 hours'`;
+    const query = `DELETE FROM posts WHERE created_at < NOW() - INTERVAL '43 hours'`;
     client.query(query, (err, result) => {
         if (err) {
             console.error('Error deleting old posts:', err);

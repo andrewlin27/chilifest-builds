@@ -7,15 +7,15 @@ const ResellEntry = ({ post }) => {
 
     const formatTime = (created) => {
         const time = new Date(created);
-        const cstOffset = -5 * 60; 
-        const cstTime = new Date(time.getTime() + cstOffset * 60000);
+        // const cstOffset = -5 * 60; 
+        // const cstTime = new Date(time.getTime() + cstOffset * 60000);
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-        const weekdayName = weekdays[cstTime.getDay()];
+        const weekdayName = weekdays[time.getDay()];
 
-        const hours = cstTime.getHours() % 12 || 12; 
-        const minutes = cstTime.getMinutes().toString().padStart(2, '0'); // Ensure two digits
-        const ampm = cstTime.getHours() < 12 ? 'am' : 'pm'; 
+        const hours = time.getHours() % 12 || 12; 
+        const minutes = time.getMinutes().toString().padStart(2, '0'); // Ensure two digits
+        const ampm = time.getHours() < 12 ? 'am' : 'pm'; 
         const formattedTime = `${hours}:${minutes}${ampm}`;
 
         return `${weekdayName} ${formattedTime}`;
