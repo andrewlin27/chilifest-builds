@@ -13,7 +13,7 @@ const Resell = () => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/posts');
+                const response = await axios.get('https://ec2-18-219-30-98.us-east-2.compute.amazonaws.com/api/posts');
                 setPosts(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error);

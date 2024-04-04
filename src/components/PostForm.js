@@ -24,7 +24,7 @@ const PostForm = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-            await axios.post('https://ec2-18-219-30-98.us-east-2.compute.amazonaws.com:443/api/posts', formData);
+            await axios.post('https://ec2-18-219-30-98.us-east-2.compute.amazonaws.com/api/posts', formData);
             alert('Post added successfully!');
             
             setFormData({
