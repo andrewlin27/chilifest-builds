@@ -26,7 +26,7 @@ const ResellEntry = ({ post }) => {
         const inputPassword = prompt('Enter your password to delete:');
         if (inputPassword === null) return; // User cancelled
         try {
-            await axios.delete(`http://ec2-18-219-30-98.us-east-2.compute.amazonaws.com:5000/api/posts/${post.post_id}`, { data: { password: inputPassword } });
+            await axios.delete(`https://ec2-18-219-30-98.us-east-2.compute.amazonaws.com:443/api/posts/${post.post_id}`, { data: { password: inputPassword } });
             alert('Post deleted successfully!');
         } catch (error) {
             alert('Invalid password. Forgot? Email chilifestbuilds@gmail.com');
