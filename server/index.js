@@ -1,14 +1,21 @@
 require('dotenv').config({ path: '../.env' });
-const express = require('express');
-const cors = require('cors');
 
 const {Client} = require('pg');
 const cron = require('node-cron');
 
+const express = require('express');
+const cors = require('cors');
+const https = require('https')
+const fs = require('fs')
 const app = express();
 app.use(cors());
 app.use(express.json());
-const port = 5000;
+const port = 443;
+
+const options = {
+    key: fs.readFileSync('./cert/key.pem'),
+    cert: fs.readFileSync('./cert/cert.pem')
+}
 
 const client = new Client({
     host: process.env.DB_Host,
@@ -90,6 +97,10 @@ app.delete('/api/posts/:post_id', async (req, res) => {
 });
 
 
-app.listen(port, () => {
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// });
+
+https.createServer(options, app).listen(port, () => {
     console.log(`Server is running on port ${port}`);
-});
+})
