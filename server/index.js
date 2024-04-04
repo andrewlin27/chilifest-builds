@@ -21,7 +21,7 @@ const client = new Client({
 client.connect();
 
 
-cron.schedule('*/1 * * * *', () => {
+cron.schedule('*/10 * * * *', () => {
     // delete entries older than 24 hours
     const query = `DELETE FROM posts WHERE created_at < NOW() - INTERVAL '48 hours'`;
     client.query(query, (err, result) => {
