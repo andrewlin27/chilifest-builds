@@ -7,6 +7,7 @@ import Contacts from './components/Contacts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Resell from './components/Resell';
+import PostForm from './components/PostForm';
 // import Countdown from './components/Countdown';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/contacts" element={<Contacts/>} />
             <Route path="/map" element={<Map/>} />
             <Route path="/resell" element={<Resell/>} />
+            <Route path="/postform" element={<PostForm/>} />
         </Routes>
 
         <Footer />

@@ -1,0 +1,30 @@
+.resell-entry {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(30% - 20px);
+    height: 260px;
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    background-color: #f9f9f9;
+    word-wrap: break-word; 
+    align-items: center;
+}
+
+@media (max-width: 760px) {
+    .resell-entry {
+        width: calc(40% - 20px);
+        height: 320px;
+    }
+}
+
+.resell-entry h3 {
+    margin-top: 0;
+}
+
+.resell-entry p {
+    margin: 5px 0;
+}

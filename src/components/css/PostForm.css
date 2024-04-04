@@ -1,0 +1,83 @@
+.post-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.post-form-container h1 {
+    margin: 10px;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.gender-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.gender-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.required {
+    color: red;
+}
+
+.notice {
+    margin: 0 auto; /* Set left and right margins to auto */
+    max-width: 450px; /* Set a maximum width to prevent the list from spanning the entire width of the container */
+    font-size: 22px;
+    text-align: center;
+    padding-inline-start: 30px;
+}
+  
+@media (max-width: 760px) {
+.notice {
+    font-size: 18px;
+    }
+}
