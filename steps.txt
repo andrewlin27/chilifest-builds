@@ -1,0 +1,8 @@
+- Frontend deployed on github pages. ran into blank white page problem
+
+- AWS RDS postgres database. Connect locally with sql workbench. Use link if error connect with backend. Was getting path errors for env variables
+	https://stackoverflow.com/questions/76899023/rds-while-connection-error-no-pg-hba-conf-entry-for-host
+
+- AWS EC2 to host backend. Use link to setup and get SSL on api endpoints (HTTP port 80, HTTPS port 443). endpoints must be HTTPS (browsers block HTTP requests)
+	https://www.youtube.com/watch?v=bmz0D_d4_cY
+	https://www.youtube.com/watch?v=q-XEGbipOVw&t=2048s
